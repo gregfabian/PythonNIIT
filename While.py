@@ -122,8 +122,56 @@ user for a new temperature.'''
 
     # guess_number = int(input("Guess a number: "))
 
-n =2
-while n <= 10:
-    if n % 2 == 0:
-        print(n)
-        n = n + 2
+# n =2
+# while n <= 10:
+#     if n % 2 == 0:
+#         print(n)
+#         n = n + 2
+
+
+# while True:
+#     num = int(input("Enter an even number only: "))
+#     if num % 2 == 0:
+#         print("Number",num,"is an even number")
+#     else:
+#         if num % 2 != 0:
+#             print("Number",num,"is an odd number")
+#         break
+
+# x = 2
+# while x < 12:
+#     if x % 2 == 0:
+#         print(x,"is even")
+#     else:
+#         x += 1
+#         continue
+#     x += 1
+
+
+'''======================================================'''
+'''FOR LOOP'''
+'''++++++++++++++++++++++++++++++++++++++++++++++++++++++'''
+# friends = ["Joseph", "Glenn", "Sally"]
+# for friends in friends:
+#     print("Happy New Year: ",friends)
+# print("Done!")
+'''========================================================='''
+
+# total = 0
+# for num in [3,10,3,5]:
+#     total = total + num
+#     print(total)
+'''=========================================================='''
+
+
+smallest = None
+for intervar in [41,12,9,74,15,3]:
+    if smallest is None or intervar < smallest:
+        smallest = intervar
+print("Smallest: ",smallest)
+    
+largest = None
+for intervar in [3,41,12,9,74,15]:
+    if largest is None or intervar > largest:
+        largest = intervar
+print("Largest: ",largest) 
